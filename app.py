@@ -4,7 +4,7 @@ from agent import break_down_task
 st.set_page_config(page_title="TaskGPT", layout="centered")
 st.title("TaskGPT: Smart Task Breakdown Agent")
 
-task = st.text_input("Enter a task or goal 📝", "")
+task = st.text_input("Enter a task or goal ", "")
 
 if st.button("Break it Down"):
     if task.strip():
