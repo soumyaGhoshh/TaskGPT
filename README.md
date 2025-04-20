@@ -1,8 +1,8 @@
 # TaskGPT – Task Breakdown AI Agent
 
-🎯 This mini AI Agent helps you break down any task into a smart, step-by-step action plan. Built using Hugging Face models and Streamlit.
+This mini AI Agent helps you break down any task into a smart, step-by-step action plan. Built using Hugging Face models and Streamlit.
 
-## 💡 Example
+## Example
 
 Input: `Plan my exam week`  
 Output:
@@ -13,12 +13,12 @@ Output:
 5. Allocate breaks and revisions  
 6. Stick to the plan!
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python
 - Streamlit
 - Hugging Face Transformers (`flan-t5-base`)
 
-## 📦 Install & Run
+## Install & Run
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
